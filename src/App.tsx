@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App(): React.JSX.Element {
     return (
@@ -21,8 +22,15 @@ function App(): React.JSX.Element {
                 <li>Another thing</li>
                 <li>A third thing</li>
             </ol>
+            <Button
+                onClick={() => {
+                    console.log("Hello World!");
+                }}
+            >
+                Log Hello World
+            </Button>
         </div>
     );
 }
-
+//Still need to put a red-filled rectangle in each column using a div tag with width, height, and backgroundColor styles.
 export default App;
