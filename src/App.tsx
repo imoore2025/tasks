@@ -16,6 +16,11 @@ function App(): React.JSX.Element {
             <div>
                 <img src="/neuroinformatics.jpg" alt="This is an image" />
             </div>
+            <ol>
+                <li>First thing</li>
+                <li>Another thing</li>
+                <li>A third thing</li>
+            </ol>
         </div>
     );
 }
