@@ -14,10 +14,7 @@ function App(): React.JSX.Element {
             </p>
             <p>Hello World</p>
             <div>
-                <img
-                    src="../src/Neuroinformatics (1).jpg"
-                    alt="This is an image"
-                />
+                <img src="/neuroinformatics.jpg" alt="This is an image" />
             </div>
         </div>
     );
