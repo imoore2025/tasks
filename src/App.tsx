@@ -29,8 +29,14 @@ function App(): React.JSX.Element {
             >
                 Log Hello World
             </Button>
+            <div
+                style={{
+                    width: "10%",
+                    height: "50px",
+                    backgroundColor: "red",
+                }}
+            />
         </div>
     );
 }
-//Still need to put a red-filled rectangle in each column using a div tag with width, height, and backgroundColor styles.
 export default App;
