@@ -13,6 +13,12 @@ function App(): React.JSX.Element {
                 automatically reload.
             </p>
             <p>Hello World</p>
+            <div>
+                <img
+                    src="../src/Neuroinformatics (1).jpg"
+                    alt="This is an image"
+                />
+            </div>
         </div>
     );
 }
